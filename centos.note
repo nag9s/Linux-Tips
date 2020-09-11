@@ -1,0 +1,26 @@
+---------------------------------------------------------------
+	GUI on centos
+https://www.vultr.com/docs/installing-gnome-kde-gui-on-ubuntu-centos
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/how-to-install-gnome-gui-on-rhel-8.html
+https://www.itzgeek.com/how-tos/linux/centos-how-tos/install-xrdp-on-centos-7-rhel-7.html
+---------------------------------------------------------------
+yum update && yum upgrade
+yum group list
+
+yum -y groupinstall "KDE desktop" "X Window System" "Fonts"
+or 
+yum groupinstall "Server with GUI"
+systemctl set-default graphical
+rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+yum -y install xrdp tigervnc-server
+systemctl start xrdp
+netstat -antup | grep xrdp
+systemctl enable xrdp
+firewall-cmd --permanent --add-port=3389/tcp
+firewall-cmd --reload
+reboot
+
+open windows rdp and enter ip address to proceed
+
+-- to improve RDP, if RDP is slow
+https://stackoverflow.com/questions/37276637/rdp-session-is-slow

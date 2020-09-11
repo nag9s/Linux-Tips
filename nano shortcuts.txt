@@ -1,0 +1,36 @@
+To delete a line ctrl+k
+to exit ctrl+x
+To see all valid shortcuts, press Ctrl+G (displayed as ^G) or F1.
+
+
+Control shortcuts (used with the Ctrl button) are represented by a carat (^) followed by a symbol.
+
+For example, the shortcut to Exit out of the Nano text editor is Ctrl+X (displayed as ^X).
+there are combinations that require the Meta key (usually the Alt button). They are represented by the letter M followed by a symbol.
+
+For example, the shortcut to Undo an action in a text is Alt+U (displayed as M-U)
+
+To save a file, use the Ctrl+O (^O) keyboard combination
+
+move forward one character: Ctrl+F (^F)
+move back one character: Ctrl+B (^B)
+move forward one word: Ctrl+Space (^Space)
+move back one word: Alt+Space (M-Space)
+move to the previous line: Ctrl+P (^P)
+move to the next line: Ctrl+N (^N)
+move to the next page: Ctrl+V (^V)
+move to the previous page: Ctrl+Y (^Y)
+move to the beginning of the line: Ctrl+A (^A)
+move to the end of the line: Ctrl+E (^E)
+
+To search for a particular word or part of a text inside the editor, use the “where is” option with the Ctrl+W shortcut (^W)
+
+To replace text in the file, first open the search bar with Ctrl+W (^W) and then press Ctrl+R (^R)
+--------------------------------------------------
+Select, Copy, Cut and Paste Text
+--------------------------------------------------
+To select part of a file, navigate to the beginning of the text, press the Alt+A shortcut (M-A) and use the arrow keys to move over the text you wish to select.
+
+Next, you can copy the selected text with the Alt+6 combination (M-6) or cut with Ctrl+K (^K). If you use these shortcuts without selecting any text prior, it will copy or cut the entire line of text.
+
+To paste text, use Ctrl+U (displayed as ^U).

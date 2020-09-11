@@ -1,0 +1,20 @@
+docker europe images
+bde docker images
+ - expose volumes from name node image so that files could be uploaded from host
+ - executing spark programs
+      -word count progrsm 
+		 - thoruh note gook
+			spark shell
+			spark submit
+			hive program
+
+--------------------------------------------------------------------------------------------------------			
+copying files to hdfs
+create a user
+
+docker exec -it namenode bash
+
+hdfs dfs -mkdir /user/root
+hdfs dfs -chown root:supergroup /user/root
+there after, copy the files to exposed volume playarea and then can be placed in hdfs ( refer
+E:\OneDrive-hawkmail\OneDrive - hawkmail.hacc.edu\My Repository\Docker-Spark-Kafka-\docker-compose-all.yml)
