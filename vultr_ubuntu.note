@@ -46,6 +46,12 @@ comment out the following line, so that it looks like
 # auth required pam_succeed_if.so user != root quiet_success
 
 sudo service xrdp restart
+-------------------------------------------------------
+    chrome-stable_current_amd64
+-----------------------------------------------------------------
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo apt install ./google-chrome-stable_current_amd64.deb
 
-
+uninstall chrome-stable_current_amd64
+sudo apt-get purge google-chrome-stable
