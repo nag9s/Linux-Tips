@@ -26,3 +26,6 @@ https://extensions.gnome.org
 Dash to Dock https://extensions.gnome.org/extension/307/dash-to-dock/
 Applications-menu https://extensions.gnome.org/extension/6/applications-menu/
  
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MDI2MzM0OThdfQ==
+-->
